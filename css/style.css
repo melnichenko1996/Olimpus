@@ -1,0 +1,156 @@
+body {
+	background-color: #333;
+}
+
+#slick-loginMy {
+	color: #fff;
+	width: 320px;
+    height: 155px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    margin-left: -160px;
+    margin-top: -75px;
+}
+
+#slick-loginMy input[type="text"], #slick-loginMy input[type="password"] {
+    width: 100%;
+    height: 40px;
+    positon: relative;
+    margin-top: 7px;
+    font-size: 14px;
+    color: #444;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, .49);
+    padding-left: 20px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    background-clip: padding-box;
+    border-radius: 6px;
+    background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #F2F2F2 100%);
+}
+
+#slick-loginMy input[type="submit"]:hover, .butModal:hover{
+	background-color: #5f73e9;
+	background-image: -webkit-linear-gradient(bottom, #5f73e9 0%, #859bef 100%);
+	background-image: -moz-linear-gradient(bottom, #5f73e9 0%, #859bef 100%);
+	background-image: -o-linear-gradient(bottom, #5f73e9 0%, #859bef 100%);
+	background-image: -ms-linear-gradient(bottom, #5f73e9 0%, #859bef 100%);
+	background-image: linear-gradient(bottom, #5f73e9 0%, #859bef 100%);
+}
+
+#slick-loginMy input[type="submit"], .butModal {
+    width: 100%;
+    height: 50px;
+    margin-top: 7px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 0px -1px 0px #5b6ddc;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, .49);
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    background-clip: padding-box;
+    border-radius: 6px;
+    background-color: #286090;
+    background-image: -webkit-linear-gradient(bottom, #5466da 0%, #768ee4 100%);
+}
+.registClass {
+	width: 100%;
+	height: auto;
+	background-color: #222;
+    border-color: #080808;
+}
+
+.tablaOne {
+	text-align: center;
+	width: 80%;
+}
+
+td {
+	padding: 2%;
+}
+.formAnswerOne {
+	text-align: center;
+	background: #FFFFFF;
+	border-radius: 6px;
+	font-size: 16px;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+.formAnswerTwo{	
+	text-align: center;
+	background: #FFFFFF;
+	border-radius: 6px;
+	font-size: 16px;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+	
+	color: red;
+	width: 320px;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    margin-left: -160px;
+}
+
+/*При разрешении меньше 767, наш контент разбиваетса на 1 колонку,
+каждая из них имеет размер col-xs-12*/
+@media screen and (max-width: 500px) {
+	.masonry[data-columns]::before {
+		content: '1 .col-xs-12';
+	}
+}
+/*разрешении 768-991, 2 колонки по col-xs-6*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.masonry[data-columns]::before {
+		content: '2 .col-xs-6';
+	}
+}
+/*разрешении 992-1199, 2 колонки по col-xs-6*/
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	.masonry[data-columns]::before {
+		content: '4 .col-xs-3';
+	}
+}
+/*разрешении 992-1199, 2 колонки по col-xs-6*/
+@media screen and (min-width: 1200px) {
+	.masonry[data-columns]::before {
+		content: '4 .col-xs-3';
+	}
+}
+
+.classRowOne {
+	margin-top: 51px;	
+}
+
+.classRowTwo {
+	margin-top: 20px;
+}
+
+.classRowTwo p{
+	color: black;
+	font-size: 16px;
+	text-align: center;
+}
+
+.TextClassP {
+	color: black;
+	padding: 2%;
+	font-size: 16px;
+	text-indent: 30px;
+}
+
+.inputClass {
+    width: 42%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
